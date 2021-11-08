@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #14171b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox{
+    width: 90%;
+    height: auto;
+}
+#search{
+    width: 100%;
+    height: 25px;
+}
+input:focus{
+    outline: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.movieBoxContainer{
+    width: 80%;
+    height: auto;
+    background-color: #e7e7e9;
+    margin: 0 auto;
+    padding: 0px 0px 35px 0px;
+}
+.movieBoxContainer h1{
+    padding: 20px;
+    font-size: 28px;
+}
+.movieBoxDevided{
+    width: 90%;
+    margin: 0 auto;
+}
+.movieCardsBox{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.card{
+    width: 21%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.cardBody{
+    width: 100%;
+    height: auto;
+}
+.cardDetailsBox{
+    width: 95%;
+    margin: 0 auto;
+}
+.cardDetailsBoxDevided{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0px 7px 0px;
+}
+.movieName{
+    font-size: 17px;
+}
+.givenScore{
+    font-size: 13px;
+    color: blue;
+    font-weight: bold;
+}
+.allScore{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cardTitr{
+    font-size: 9px;
+    color: gray;
+}
+.lastUpdate , .runningTime{
+    font-size: 7px;
+    color: blue;
+    font-weight: bold;
+}
