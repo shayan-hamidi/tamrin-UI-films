@@ -7,12 +7,15 @@ nav{
     height: 40px;
     background-color: #14171b;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .searchBox{
     width: 90%;
     height: auto;
+}
+.searchBox input{
+    padding-left: 20px;
 }
 #search{
     width: 100%;
@@ -24,7 +27,6 @@ input:focus{
 nav a{
     color: white;
     text-decoration: none;
-    margin-left: 10px;
     font-size: 13px;
 }
 .movieBoxContainer{

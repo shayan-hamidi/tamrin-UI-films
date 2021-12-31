@@ -58,7 +58,7 @@ const films = [
 ]
 render(films);
 function render(films) {
-  let allDivs = "";
+   allDivs = "";
   films.forEach(film => {
     let sampleDiv = `          
 <div class="card">
@@ -85,17 +85,17 @@ function render(films) {
 document.getElementById("movieCardsBox").innerHTML = "";
 document.getElementById("movieCardsBox").innerHTML = allDivs;
 }
-document.getElementById("search").addEventListener("keyup",function(event){
-  if (event.keyCode===13) {
+document.getElementById("search").addEventListener("keydown",function(e){
   search();
-}})
+})
   function search() {
     let name = document.getElementById("search").value;
+    name = name.toLowerCase();
     let result = [];
 films.forEach(film => {
-    if (film.name.toLowerCase().includes(name)) {
+    if (film.name.toLowerCase().includes(name) || film.runningTime.toLowerCase().includes(name)) {
         result.push(film)
-        render(result)
     }
 });
+render(result)
   }
