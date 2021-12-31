@@ -1,7 +1,116 @@
-@media (min-width: 576px) { }
+@media (max-width: 576px) {
+    .movieBoxContainer h1{
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+    nav{
+        justify-content: center;
+    }
+    nav a{
+        display: none;
+    }
+    .searchBox input{
+        padding: 0px;
+    }
+    .cardBody img{
+        height: auto !important;
+    }
+    .cardTitr{
+        font-size: 12px;
+    }
+    .runningTime{
+        font-size:12px;
+    }
+    .lastUpdate{
+        font-size:12px;
+    }
+}
 
-@media (min-width: 768px) { }
+@media (min-width: 577px) and (max-width: 768px) {
+    .movieBoxContainer h1{
+        text-align: center;
+    }
+    .card{
+        width: 50%;
+    }
+    nav{
+        justify-content: center;
+    }
+    nav a{
+        display: none;
+    }
+    .searchBox input{
+        padding: 0px;
+    }
+    .card{
+    width: 48%;
+    padding: 3px;
+    }
+    .cardTitr{
+        font-size: 12px;
+    }
+    .runningTime{
+        font-size:12px;
+    }
+    .lastUpdate{
+        font-size:12px;
+    }
+}
 
-@media (min-width: 992px) { }
+@media (min-width: 769px) and (max-width: 992px) {
+    .card{
+        width: 50%;
+    }
+    nav{
+        justify-content: center;
+    }
+    nav a{
+        display: none;
+    }
+    .searchBox input{
+        padding: 0px;
+    }
+    .card{
+    width: 32%;
+    padding: 3px;
+    }
+    .cardTitr{
+        font-size: 11px;
+    }
+    .runningTime{
+        font-size:9px;
+    }
+    .lastUpdate{
+        font-size:9px;
+    }
+}
 
-@media (min-width: 1200px) { }
+@media (min-width: 993px) and (max-width: 1200px) {
+    .card{
+        width: 50%;
+    }
+    nav{
+        justify-content: center;
+    }
+    nav a{
+        display: none;
+    }
+    .searchBox input{
+        padding: 0px;
+    }
+    .card{
+    width: 31%;
+    padding: 3px;
+    }
+    .cardTitr{
+        font-size: 11px;
+    }
+    .runningTime{
+        font-size:9px;
+    }
+    .lastUpdate{
+        font-size:9px;
+    }
+}

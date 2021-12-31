@@ -88,11 +88,11 @@ nav a{
     font-weight: bold;
 }
 .cardTitr{
-    font-size: 9px;
+    font-size: 12px;
     color: gray;
 }
 .lastUpdate , .runningTime{
-    font-size: 7px;
+    font-size: 9px;
     color: blue;
     font-weight: bold;
 }
